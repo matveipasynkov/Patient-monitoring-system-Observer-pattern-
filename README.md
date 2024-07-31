@@ -33,6 +33,6 @@ MyType. Other JSON serialization options are not allowed in this task. The data 
 of the job. The collection type for the objects should be chosen independently. 
 #### The application must implement a menu that allows the user to:
 1. Pass the file path to read and write data.
-2. sort the collection of objects by one of the fields (not including nested objects).
+2. Sort the collection of objects by one of the fields (not including nested objects).
 3. Select an object and edit any field in it, except identifiers (fields that have “Id” in their name) and fields that change as a result of activation and
 event processing. The user input must be processed correctly and, in case of incorrect input, it must be requested again.
