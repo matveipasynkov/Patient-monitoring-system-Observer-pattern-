@@ -3,8 +3,7 @@ This is my sixth project, which was assigned as homework in university. The cons
 ### Main assignment
 ### Requirements for the class library
 The class library must contain:
-1) MyType classes (the name MyType is a stub and should be replaced by you with a more appropriate name for each class, based on your understanding of the data from the file
-job) represent the objects described in the JSON file of the job. Nested and related objects are described by separate
+1) Patient class represents the objects described in the JSON file of the job. Nested and related objects are described by separate
 classes. The fields of each class must be readable but closed to writing. Classes must contain a constructor to initialize their
 fields. In addition to the fields described by the JSON file, classes must implement a ToJSON method that provides a string representation of the current object in JSON format. Choose independently
 identifier (name) for the class, so that it logically describes the object and satisfies Microsoft naming rules.
