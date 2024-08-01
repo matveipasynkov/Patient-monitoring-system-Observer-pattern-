@@ -7,7 +7,7 @@ The class library must contain:
 classes. The fields of each class must be readable but closed to writing. Classes must contain a constructor to initialize their
 fields. In addition to the fields described by the JSON file, classes must implement a ToJSON method that provides a string representation of the current object in JSON format. Choose independently
 identifier (name) for the class, so that it logically describes the object and satisfies Microsoft naming rules.
-3) All MyType classes implement the EventHandler<EventArgs> Updated event, which is responsible for notifying subscribers about changes to the object. Implement an inheritor class
+3) All Patient classes implement the EventHandler<EventArgs> Updated event, which is responsible for notifying subscribers about changes to the object. Implement an inheritor class
 EventArgs that stores the date and time of the changes.
 4) AutoSaver class subscribed to Updated events of objects from JSON file. When receiving two events no more than 15 seconds apart, it should write the current
 state of the collection of objects in JSON new file <original_json_file_name>_tmp.json
@@ -28,7 +28,7 @@ members of the class.
 proposed in the assignment, also in compliance with OOP principles.
 ### Requirements for console application
 The console application uses the class library described above and, with the help of the standard library System.Text.Json, receives data to form objects of type
-MyType. Other JSON serialization options are not allowed in this task. The data for the objects, as well as the connection type between them, are extracted from the JSON representation of the file
+Patient. Other JSON serialization options are not allowed in this task. The data for the objects, as well as the connection type between them, are extracted from the JSON representation of the file
 of the job. The collection type for the objects should be chosen independently. 
 #### The application must implement a menu that allows the user to:
 1. Pass the file path to read and write data.
